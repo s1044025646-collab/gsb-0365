@@ -1,0 +1,21 @@
+{
+  "name": "connect4-analyzer",
+  "version": "1.0.0",
+  "description": "重力四子棋有限深度落子搜索与主变化解释后端",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "start": "node dist/server.js",
+    "cli": "node dist/cli.js",
+    "demo": "node dist/cli.js demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
